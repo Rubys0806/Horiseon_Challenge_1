@@ -1,13 +1,16 @@
+/*Changes sizing, padding, margin for entire webpage.*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Adds background color to body element.*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Adds padding, font type/color, and background color to header.*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/*Adds size and position to h1 in header.*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Adds color to class .seo in header h1.*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Adds padding, margin, position, font type/size to navigation element in header.*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,28 @@ header nav {
     font-size: 20px;
 }
 
+/*No style indicated for unordered list in navigation.*/
 header nav ul {
     list-style-type: none;
 }
 
+/*Adds position and margin to list elements in navigation under unordered list.*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Adds color and indicate no text decoration for links.*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Adds font size to all paragraph elements.*/
 p {
     font-size: 16px;
 }
-
+/*Adds background image, size, position, and margin for the hero section of the HTML.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +69,26 @@ p {
     background-position: center;
 }
 
+/*Positions images to left in main section.*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Positions images to right in main section.*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Adds width, position and margin to main section content.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Adds margin, padding, position, size, font and background color to aside benefits.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +100,64 @@ p {
     background-color: #2589bd;
 }
 
+/*Adds margin and color to lead section in aside.*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Adds margin and color to brand section in aside.*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Adds margin and color to cost section in aside.*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Adds margin and text position to heading in lead section in aside.*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Adds margin and text position to heading in brand section in aside.*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Adds margin and text position to heading in cost section in aside.*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Adds position, margin and width to image in lead section in aside.*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Adds position, margin and width to image in brand section in aside.*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Adds position, margin and width to image in cost section in aside.*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Adds margin, paddin, height, font type/color, and background color in SEO section in main.*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +167,7 @@ p {
     color: #ffffff;
 }
 
+/*Adds margin, paddin, height, font type/color, and background color in online reputation management section in main.*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +177,7 @@ p {
     color: #ffffff;
 }
 
+/*Adds margin, paddin, height, font type/color, and background color in social media marketing section in main.*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +187,40 @@ p {
     color: #ffffff;
 }
 
+/*Adds max height to image in SEO section in main.*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*Adds max height to image in online reputation management section in main.*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/*Adds max height to image in social media marketing section in main.*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*Adds margin and font size to heading in SEO section in main.*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Adds margin and font size to heading in online reputation management section in main.*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Adds margin and font size to heading in social media marketing section in main.*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Adds padding, font and text position in footer element.*/
 footer {
     padding: 30px;
     clear: both;
@@ -195,6 +228,7 @@ footer {
     text-align: center;
 }
 
+/*Adds font size for heading in footer element.*/
 footer h4 {
     font-size: 20px;
 }
