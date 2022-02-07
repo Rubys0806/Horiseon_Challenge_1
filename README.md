@@ -23,4 +23,4 @@ so that our own site is optimized for search engines.
 ![Screenshot image of the final appearence of the website.](./assets/images/Horiseon_Screenshot.png)
 
 ## URL
-![URL to deployed application](https://rubys0806.github.io/Horiseon_Challenge_1/)
+[URL to deployed application](https://rubys0806.github.io/Horiseon_Challenge_1/)
