@@ -3,7 +3,7 @@
 * As a marketing agency, I want a codebase that follows accessibility standards
 so that our own site is optimized for search engines.
 
-## Descrition
+## Description
 
 * Starter code was provided by the mock company Horiseon which was altered to fit accessibility standards based on the criteria listed below. The website remained the same in looks and fuction, but by altering the code it is made more accessible to individuals with disabilities and improves the website for long-term sustainability. 
 
