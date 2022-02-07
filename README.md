@@ -20,7 +20,7 @@ so that our own site is optimized for search engines.
 * It's done when the title element is concise and descriptive. 
 
 ## Screenshot
-![Screenshot image of the final appearence of the website.](./Develop/assets/images/Horiseon_Screenshot.png)
+![Screenshot image of the final appearence of the website.](./docs/assets/images/Horiseon_Screenshot.png)
 
 ## URL
 ![URL to deployed application]
